@@ -1,0 +1,11 @@
+Instancia ->    Atributo        ->  Método
+                Caracteristicas ->  Ação
+
+Vantagens
+
+Estrutura
+Legibilidade
+Reutilização
+Manutentabilidade
+Trabalho em equipe
+Modelagem do problema
