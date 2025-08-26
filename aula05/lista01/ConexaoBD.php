@@ -1,12 +1,15 @@
 <?php
 
+
 class ConexaoBD
 {
-    private function conectar(){
+    private $conexao;
 
+    private function conectar() {
+        $this->conexao;
     }
 
-    public function getConexao(){
-
+    public function getConexao() {
+        return $this->conexao;
     }
 }

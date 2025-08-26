@@ -9,10 +9,15 @@ class Usuario
     }
 
     public function verificarSenha($senhaDigitada){
-        return $this->senha == $senhaDigitada;
+        if($this->senha == $senhaDigitada){
+            return "Acesso permitido";
+        } else {
+            return "Acesso negado";
+        }
+        
     }
 }
 
 $usuario1 = new Usuario("12345678");
-$senhaDigitada = "12345678";
-echo verificarSenha($senhaDigitada);
+$senhaDigitada = "1234567810";
+echo $usuario1->verificarSenha($senhaDigitada);

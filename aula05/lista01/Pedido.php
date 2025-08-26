@@ -16,3 +16,11 @@ class Pedido
         return $this->items;
     }
 }
+
+$pedido1 = new Pedido();
+$pedido1->addItem("Produto 1");
+$pedido1->addItem("Produto 2");
+
+foreach($pedido1->getItems() as $item){
+    echo $item . "<br>";
+}

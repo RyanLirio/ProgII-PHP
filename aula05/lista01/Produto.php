@@ -5,7 +5,7 @@ class Produto
     public $nome;
     private $preco;
 
-    private function __construct($nome, $preco)
+    public function __construct($nome, $preco)
     {
         $this->nome = $nome;
         $this->preco = $preco;
