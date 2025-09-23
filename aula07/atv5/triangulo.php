@@ -1,10 +1,11 @@
 <?php
 include_once 'figuraGeometrica.php';
-class Circulo extends FiguraGeometrica{
-    private $raio;
+class Triangulo extends FiguraGeometrica{
+    private $base;
+    private $altura;
 
     public function calcularArea($base = 0, $altura = 0, $raio = 0){
-        return 3.14 * ($raio * $raio);
+        return ($base * $altura) / 2;
     }
 
 }
